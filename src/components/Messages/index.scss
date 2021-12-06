@@ -1,0 +1,44 @@
+.titleContainer {
+  padding: 0px 2rem;
+  margin-top: 64px;
+}
+
+.messagesContainer {
+  display: flex;
+  margin: 32px 0px 0px 0px;
+  flex-wrap: wrap;
+  justify-content: 'space-between';
+  padding: 0px 1rem;
+
+  .singleMessage {
+    border: 8px solid var(--black);
+    padding: .5rem 2rem 1rem 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 8px 9px 5px var(--shadow);
+    flex: 1 1 0px;
+    
+    &.pink {
+      background-color: var(--pink);
+    }
+    &.yellow {
+      background-color: var(--yellow);
+    }
+    &.blue {
+      background-color: var(--blue);
+    }
+    &.purple {
+      background-color: var(--purple);
+    }
+
+    .message {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .address a {
+      color: var(--black);
+    }
+  }
+}
